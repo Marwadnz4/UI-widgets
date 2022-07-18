@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
                       )),
                 ),
               ),
-              SizedBox(height: 20,),
+              const SizedBox(height: 20,),
               const Card(
                 margin: EdgeInsets.symmetric(horizontal: 20),
                 child: ListTile(
@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
                     size: 35,
                     color: Colors.black,
                   ),
-                  title: Text('0+964 751 5678 654',
+                  title: Text('+964 751 5678 654',
                       style: TextStyle(
                         fontSize: 25,
                       )),
